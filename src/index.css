@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* Smart Farm custom colors */
+@theme {
+  --color-farm-green: #2d6a4f;
+  --color-farm-light: #52b788;
+  --color-farm-cream: #f8f9fa;
+  --color-farm-dark: #1b4332;
+  --color-farm-warning: #f4a261;
+  --color-farm-danger: #e63946;
+}
+
+/* Base */
+body {
+  margin: 0;
+  background-color: #f9fafb;
+  color: #1f2937;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  border-left-width: 4px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1b4332;
+}
+
+.btn-outline {
+  border: 2px solid #2d6a4f;
+  color: #2d6a4f;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.btn-outline:hover {
+  background-color: #2d6a4f;
+  color: white;
+}

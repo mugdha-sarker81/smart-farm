@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Fields from './pages/Fields';
 import Crops from './pages/Crops';
+import DetectDisease from './pages/DetectDisease';
 import Tasks from './pages/Tasks';
 import Calendar from './pages/Calendar';
 import Workers from './pages/Workers';
@@ -37,6 +38,7 @@ function App() {
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="fields" element={<Fields />} />
               <Route path="crops" element={<Crops />} />
+              <Route path="detect-disease" element={<DetectDisease />} />
               <Route path="tasks" element={<Tasks />} />
               <Route path="calendar" element={<Calendar />} />
               <Route path="workers" element={<Workers />} />

@@ -25,3 +25,11 @@ dist-ssr
 .env
 .env.local
 .env.*.local
+
+# Python & ML
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+.keras/
+.matplotlib/

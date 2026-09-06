@@ -15,12 +15,14 @@ import {
   X,
   LogOut,
   User,
+  ScanLine,
 } from 'lucide-react';
 
 const navItems = [
   { path: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { path: '/fields', label: 'Fields', icon: MapPin },
   { path: '/crops', label: 'Crops', icon: Sprout },
+  { path: '/detect-disease', label: 'Detect Disease', icon: ScanLine },
   { path: '/tasks', label: 'Tasks', icon: CheckSquare },
   { path: '/calendar', label: 'Calendar', icon: Calendar },
   { path: '/workers', label: 'Workers', icon: Users },

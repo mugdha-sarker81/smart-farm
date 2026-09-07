@@ -1,313 +1,365 @@
-# 🌱 Smart Farm — Intelligent Farm Management System
+🌱 Smart Farm — Intelligent Farm Management & Crop Health Platform
 
-> **Built for ForkedArch Freshers Hackathon 2026**
+«Forkathon 2026 — Freshers Hackathon
+Presented by ForkedArch • Powered by XtendArena»
 
-**Smart Farm** is a modern web-based agricultural management platform designed to help farmers monitor, manage, and optimize their farming activities from a single dashboard.
+Smart Farm is a modern agricultural management platform that combines farm management, crop disease detection, weather intelligence, and calendar-based task management into a single, easy-to-use dashboard.
 
-The system provides an easy-to-use interface for managing farms, tracking agricultural activities, monitoring important farm information, and making data-driven decisions.
-
----
-
-## 🚀 Live Demo
-
-🌐 **[Smart Farm — Live Demo](https://smart-farm-tawny.vercel.app/)**
+Our goal is to help farmers move from scattered manual records to a more organized and intelligent digital farming experience.
 
 ---
 
-## 👥 Team
+✨ Key Features
 
-| Name     | Roll     | Department | GitHub                           |
-| -------- | -------- | ---------- | -------------------------------- |
-| Member 1 | 2K25XXXX | CSE        | [@username](https://github.com/) |
-| Member 2 | 2K25XXXX | CSE        | [@username](https://github.com/) |
-| Member 3 | 2K25XXXX | CSE        | [@username](https://github.com/) |
-| Member 4 | 2K25XXXX | CSE        | [@username](https://github.com/) |
+🌾 1. Farm Management
 
----
+Manage important farm information from a centralized platform.
 
-# ❔ Problem
-
-## Problem Statement
-
-Agriculture involves managing a large amount of information such as crops, farming activities, resources, schedules, and farm conditions.
-
-For many farmers, keeping track of these activities manually can be difficult, time-consuming, and error-prone. Important information may be scattered across notebooks, spreadsheets, or different applications.
-
-This creates several challenges:
-
-* Difficulty managing multiple farms or fields
-* Lack of centralized farm information
-* Difficulty tracking agricultural activities
-* Poor organization of farming schedules
-* Limited access to useful data for decision-making
-* Time-consuming manual management
+Farmers can keep their farming information organized instead of depending on scattered notebooks or separate applications.
 
 ---
 
-## 🤔 Our Understanding
+📊 2. Smart Dashboard
 
-We believe that farmers should not need to depend on complicated tools to manage their farms.
+The Smart Farm dashboard provides a centralized overview of farm activities and important information.
 
-A farmer should be able to open one application and quickly understand:
-
-> **What is happening on my farm? What needs to be done? And what should I do next?**
-
-Smart Farm aims to provide a centralized digital platform where farm-related information can be organized and accessed easily.
-
-Instead of maintaining scattered records, farmers can use a single dashboard to manage their farming activities.
+Farmers can quickly understand what is happening on their farm without navigating through multiple systems.
 
 ---
 
-# 💡 Our Solution
+📅 3. Calendar-Based Task Management
 
-## Overview
+Farming involves many activities that must happen at the right time.
 
-**Smart Farm** is a centralized digital platform for farm management.
+Smart Farm provides a calendar-based task management system that allows farmers to organize and track farming tasks according to their schedules.
 
-Our goal is to simplify farm management by providing farmers with a clean dashboard where they can organize farm information and monitor their agricultural activities.
+Example tasks
 
-The application is designed to make farm management:
+- 🌱 Planting
+- 💧 Irrigation
+- 🌿 Fertilization
+- 🧪 Applying pesticides
+- 🌾 Harvesting
+- 🔧 Farm maintenance
+- 🩺 Crop inspection
 
-* 🌱 **Simple**
-* 📊 **Data-driven**
-* ⚡ **Efficient**
-* 📱 **Accessible**
-* 🔐 **Secure**
+The calendar provides a visual representation of upcoming tasks, making it easier for farmers to plan their daily and seasonal activities.
 
----
+Workflow
 
-## ✨ Key Features
-
-### 🌾 Farm Management
-
-Users can manage their farm-related information from a centralized dashboard.
-
-### 📊 Dashboard
-
-A visual dashboard provides an overview of important farm information and activities.
-
-### 📅 Activity & Schedule Management
-
-Farm activities can be organized and tracked so that important tasks are easier to manage.
-
-### 🔐 Authentication
-
-Users can securely access their farm information through authentication.
-
-### 🗂️ Centralized Data
-
-Farm-related information is organized in one place instead of being scattered across different sources.
-
-### 📱 Responsive Interface
-
-The application is designed to provide a user-friendly experience across different screen sizes.
+Create Task
+     │
+     ▼
+Select Date & Time
+     │
+     ▼
+Add Task Details
+     │
+     ▼
+Calendar
+     │
+     ▼
+Track Upcoming Activities
 
 ---
 
-# ⚙️ How It Works
+🌦️ 4. Weather API Integration
 
-The basic workflow of Smart Farm is:
+Weather conditions can have a major impact on agricultural activities.
 
-```text
-             👨‍🌾 Farmer
-                 │
-                 ▼
-          🔐 User Authentication
-                 │
-                 ▼
-          🌱 Smart Farm Dashboard
-                 │
-       ┌─────────┼─────────┐
-       ▼         ▼         ▼
-    Farms     Activities  Schedule
-       │         │         │
-       └─────────┼─────────┘
-                 ▼
-          📊 Farm Information
-                 │
-                 ▼
-        Better Farm Decisions
-```
+Smart Farm integrates a Weather API to provide relevant weather information to users directly inside the application.
 
-### Step 1 — User Login
+Farmers can use weather information when planning activities such as:
 
-The farmer accesses the application and authenticates their account.
+- 💧 Irrigation
+- 🌱 Planting
+- 🌾 Harvesting
+- 🧪 Crop treatment
+- 🌧️ Rain-sensitive activities
+- ☀️ General farm planning
 
-### Step 2 — Farm Dashboard
+Instead of checking a separate weather application, farmers can access farm management tools and weather information from the same platform.
 
-After logging in, the user can access the main farm dashboard.
+Smart Farm + Weather
 
-### Step 3 — Manage Farm Information
+              🌦️ WEATHER API
+                    │
+                    ▼
+            Current Weather
+                    │
+        ┌───────────┼───────────┐
+        ▼           ▼           ▼
+    🌡️ Temp      💧 Humidity   🌧️ Rain
+        │           │           │
+        └───────────┼───────────┘
+                    ▼
+             👨‍🌾 FARMER
+                    │
+                    ▼
+            Better Planning
 
-The farmer can organize and manage relevant farm information and activities.
-
-### Step 4 — Monitor Activities
-
-Important activities and schedules can be tracked from the application.
-
-### Step 5 — Make Better Decisions
-
-Organized information allows farmers to better understand their farm operations and make informed decisions.
+«Note: Weather information is provided as decision-support data and should not be treated as a guaranteed prediction of local farming conditions.»
 
 ---
 
-# 🏗️ Architecture
+🩺 5. AI-Based Crop Disease Detection
 
-```text
-                    👨‍🌾 USER
-                       │
-                       ▼
-              ┌─────────────────┐
-              │   React + Vite   │
-              │    Frontend      │
-              └────────┬────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │    Supabase     │
-              │ Authentication  │
-              │   & Database    │
-              └────────┬────────┘
-                       │
-                       ▼
-                🌱 FARM DATA
-```
+Smart Farm includes a crop disease detection component using a trained machine-learning model.
 
----
+Users can provide crop images and use the model to assist in identifying potential crop diseases.
 
-# 🛠️ Technology Stack
+📷 Crop Image
+      │
+      ▼
+🧠 ML Model
+      │
+      ▼
+🔍 Image Classification
+      │
+      ▼
+🩺 Potential Disease
+      │
+      ▼
+💡 Decision Support
 
-| Technology      | Purpose                           |
-| --------------- | --------------------------------- |
-| ⚛️ React        | Frontend UI                       |
-| ⚡ Vite          | Development & build tool          |
-| 🎨 Tailwind CSS | Styling                           |
-| 🗄️ Supabase    | Authentication & backend services |
-| ☁️ Vercel       | Deployment                        |
-| 🟨 JavaScript   | Application logic                 |
-| 🐙 GitHub       | Version control                   |
+The project includes the trained model:
+
+crop_disease_model_final.keras
+
+«The prediction is intended as an assistive tool and should be verified with agricultural expertise before taking critical action.»
 
 ---
 
-# 📁 Project Structure
+🔐 6. Secure Authentication
 
-```text
-smart-farm/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   ├── context/
-│   ├── lib/
-│   ├── pages/
-│   └── ...
-│
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-```
+Users can authenticate before accessing their farm-related information.
+
+Authentication helps ensure that farm data is associated with the correct user.
 
 ---
 
-# 💻 Installation & Setup
+🗂️ 7. Centralized Farm Data
 
-## 1. Clone the repository
+Farm information, activities, tasks and other relevant data are organized in one platform.
 
-```bash
-git clone https://github.com/mugdha-sarker81/smart-farm.git
-```
-
-## 2. Enter the project directory
-
-```bash
-cd smart-farm
-```
-
-## 3. Install dependencies
-
-```bash
-npm install
-```
-
-## 4. Start the development server
-
-```bash
-npm run dev
-```
-
-The application will then be available through the local development URL shown in your terminal.
+This creates a single digital workspace for managing farming operations.
 
 ---
 
-# 🔐 Environment Variables
+📱 8. Responsive User Interface
 
-If your local setup requires Supabase credentials, create a `.env` file and add the required environment variables.
-
-Example:
-
-```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-> ⚠️ Never commit private keys, passwords, or secret credentials to GitHub.
+The application is designed with a responsive interface so that users can access Smart Farm across different screen sizes.
 
 ---
 
-# 🌐 Deployment
+⚙️ Complete System Workflow
 
-The project is deployed using **Vercel**.
-
-### Live Application
-
-**https://smart-farm-tawny.vercel.app/**
-
-The deployment allows users and judges to access the application without setting up the project locally.
-
----
-
-# 🎯 Future Improvements
-
-We plan to further improve Smart Farm with features such as:
-
-* 🤖 AI-powered farming recommendations
-* 🌦️ Weather integration
-* 💧 Smart irrigation monitoring
-* 📡 IoT sensor integration
-* 🌿 Crop health monitoring
-* 📈 Advanced farm analytics
-* 🔔 Automated farming alerts
-* 🗺️ Interactive farm mapping
-* 📱 Progressive Web App support
-
----
-
-# 🏆 Hackathon
-
-This project was developed for:
-
-**ForkedArch Freshers Hackathon 2026**
-
-> **Forkathon 2026 — Build. Innovate. Impact.**
-
----
-
-# 📜 License
-
-This project was developed as a hackathon project.
+                         👨‍🌾 FARMER
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │  Authentication │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ Smart Dashboard │
+                    └────────┬────────┘
+                             │
+          ┌──────────────────┼──────────────────┐
+          │                  │                  │
+          ▼                  ▼                  ▼
+      🌾 FARM             📅 TASKS          🌦️ WEATHER
+    MANAGEMENT           CALENDAR              API
+          │                  │                  │
+          │                  │                  │
+          └──────────────────┼──────────────────┘
+                             │
+                             ▼
+                     🩺 CROP HEALTH
+                             │
+                             ▼
+                      🧠 ML MODEL
+                             │
+                             ▼
+                     📊 FARM INSIGHTS
+                             │
+                             ▼
+                     💡 BETTER DECISIONS
 
 ---
 
-## ❤️ Built With
+🏗️ System Architecture
 
-Made with ❤️ by **Team [Your Team Name]**
+                         👨‍🌾 USER
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │   React + Vite      │
+                 │      Frontend       │
+                 └──────────┬──────────┘
+                            │
+            ┌───────────────┼────────────────┐
+            │               │                │
+            ▼               ▼                ▼
+      ┌──────────┐    ┌───────────┐    ┌─────────────┐
+      │ Supabase │    │ Weather   │    │ Crop Disease│
+      │ Auth + DB│    │    API    │    │  ML Model   │
+      └─────┬────┘    └─────┬─────┘    └──────┬──────┘
+            │               │                  │
+            └───────────────┼──────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────┐
+                 │     Smart Farm      │
+                 │       Platform      │
+                 └──────────┬──────────┘
+                            │
+                 ┌──────────┴──────────┐
+                 │                     │
+                 ▼                     ▼
+           📅 Task Calendar       📊 Dashboard
+                 │                     │
+                 └──────────┬──────────┘
+                            ▼
+                    💡 FARM INSIGHTS
 
-### Forkathon 2026
+---
 
-**ForkedArch Freshers Hackathon 2026**
-Powered by **XtendArena**
+🧠 What Makes Smart Farm Different?
+
+Smart Farm does not focus on only one part of agriculture.
+
+Instead, it combines several useful tools into one platform:
+
+Challenge| Smart Farm Solution
+🌾 Managing farm information| Farm Management
+📅 Remembering farming activities| Calendar-Based Tasks
+🌦️ Checking weather separately| Weather API Integration
+🦠 Identifying crop problems| ML-Based Disease Detection
+📊 Scattered information| Centralized Dashboard
+🔐 Managing user access| Authentication
+
+One platform. Multiple farming needs.
+
+        🌾 FARM
+          +
+        📅 TASKS
+          +
+        🌦️ WEATHER
+          +
+        🩺 CROP HEALTH
+          +
+        📊 DATA
+          │
+          ▼
+     🌱 SMART FARM
+
+---
+
+🚀 Future Roadmap
+
+The current platform can be expanded into a complete intelligent agriculture ecosystem.
+
+🤖 AI Farming Recommendations
+
+Generate recommendations based on crop type, weather, farm history and other available data.
+
+🌦️ Weather-Aware Task Recommendations
+
+Combine the weather API with the task calendar to warn users when upcoming activities may be affected by weather conditions.
+
+For example:
+
+📅 Tomorrow
+Task: Irrigation
+
+🌧️ Rain Expected
+
+        ↓
+
+⚠️ Consider reviewing the irrigation schedule
+
+📡 IoT Sensor Integration
+
+Connect real-world sensors for:
+
+- Soil moisture
+- Temperature
+- Humidity
+- Soil conditions
+
+💧 Smart Irrigation
+
+Use soil moisture and weather information to assist with irrigation decisions.
+
+📈 Advanced Farm Analytics
+
+Provide historical charts and insights about farm activities, crop performance and productivity.
+
+🔔 Smart Notifications
+
+Notify farmers about:
+
+- Upcoming tasks
+- Overdue activities
+- Weather changes
+- Crop health warnings
+
+🗺️ Farm Mapping
+
+Allow users to digitally map fields and monitor individual areas.
+
+---
+
+🏆 Hackathon Impact
+
+Smart Farm was built for Forkathon 2026 with a simple idea:
+
+«Farmers shouldn't need five different tools to manage their farm.»
+
+By bringing farm management, calendar-based planning, weather information and crop health intelligence together, Smart Farm creates a foundation for a more connected and data-driven farming experience.
+
+---
+
+🌱 Our Vision
+
+                 TODAY
+                   │
+                   ▼
+            🌾 Farm Management
+                   │
+                   ▼
+            📅 Smart Scheduling
+                   │
+                   ▼
+             🌦️ Weather Data
+                   │
+                   ▼
+             🩺 Crop Health
+                   │
+                   ▼
+              🤖 AI Insights
+                   │
+                   ▼
+             📡 IoT Sensors
+                   │
+                   ▼
+        🌱 INTELLIGENT FARMING
+
+Smart Farm — Turning farming data into smarter decisions.
+
+---
+
+🛠️ Technology Stack
+
+Technology| Purpose
+⚛️ React| Frontend
+⚡ Vite| Development & build
+🎨 Tailwind CSS| UI styling
+🗄️ Supabase| Authentication & database
+🌦️ Weather API| Weather information
+📅 Calendar System| Farm task scheduling
+🧠 Keras / Machine Learning| Crop disease detection
+☁️ Vercel| Deployment
+🐙 GitHub| Version control
